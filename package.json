@@ -1,0 +1,46 @@
+{
+  "name": "bva-decision-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "drizzle-orm": "^0.37.0",
+    "@libsql/client": "^0.14.0",
+    "@qdrant/js-client-rest": "^1.12.0",
+    "openai": "^4.77.3",
+    "zod": "^3.24.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "lucide-react": "^0.469.0",
+    "marked": "^15.0.5",
+    "puppeteer": "^24.1.1",
+    "docx": "^9.0.4",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.6",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "drizzle-kit": "^0.30.1"
+  }
+}
